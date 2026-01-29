@@ -1,0 +1,33 @@
+Navie Baye's Algorithm
+
+
+ we use it to check the probability of the particular event
+ 
+Independent events:Rolling a dice
+(Output cannot be predictable)
+
+Dependent Event: One is dependent on other event
+
+Baye's Theorem:P(A/B)=(P(A)*P(B/A))/P(B)
+P(A/B):Probability of A given B has occurred.
+P(B/A):Probability of B given A has occurred.
+
+P(Y/x1,x2,x3):(P(Y)*P((x1,x2,x3)/Y))/P(x1,x2,x3)
+
+P(Yes/x1,x2,x3):P(Yes)*(P(x1,x2,x3)/P(Yes))/P(No)*(P(x1,x2,x3)/P(No))
+P(No/x1,x2,x3):P(No)*(P(x1,x2,x3)/P(No))
+
+P(Yes/Sunny,hot)=P(Yes)*(P(sunny/yes)*P(hot/yes))/P(
+
+
+P(Yes/Happy,Action)=P(Yes)*P(happy,action/yes)  =(6/10)*(2/6*1/6))
+		    --------------------------  ------------------
+P(No/Happy,Action)=P(No)*P(happy,action/No)      (
+
+Variants of Navie Baye's:
+> Bernoulli:Whenever our features follow the Bernoulli distribution then we will apply the Bernoulli 
+> Multinomial:If our input is in the form of text format 
+> Gaussian
+
+
+
